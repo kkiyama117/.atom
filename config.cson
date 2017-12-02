@@ -1,19 +1,38 @@
 "*":
   core:
     closeDeletedFileTabs: true
+    disabledPackages: [
+      "git-history"
+    ]
+    packagesWithKeymapsDisabled: [
+      "git-control"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
     ]
   editor:
+    fontSize: 15
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "aff7f8e2-fff4-40f6-82be-ffb1c19651ff"
   "git-diff":
     showIconsInEditorGutter: true
+  "git-plus":
+    commits:
+      verboseCommits: true
+    experimental:
+      diffBranches: true
+    general:
+      enableStatusBarIcon: false
+    remoteInteractions: {}
+    tags:
+      signTags: true
   kite:
     showKiteTourOnStartup: false
   tabs:
     enableVcsColoring: true
+  welcome:
+    showOnStartup: false
