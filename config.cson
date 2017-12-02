@@ -21,12 +21,10 @@
   "git-diff":
     showIconsInEditorGutter: true
   "git-plus":
-    commits:
-      verboseCommits: true
+    commits: {}
     experimental:
       diffBranches: true
-    general:
-      enableStatusBarIcon: false
+    general: {}
     remoteInteractions: {}
     tags:
       signTags: true
