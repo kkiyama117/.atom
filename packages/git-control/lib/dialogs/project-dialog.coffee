@@ -30,7 +30,7 @@ class ProjectDialog extends Dialog
         if repo
           option = document.createElement("option")
           option.value = projectIndex
-          option.text = getPath().basename(getPath().resolve(repo.repo.workingDirectory))
+          option.text = path.basename(path.resolve(repo.repo.workingDirectory))
           projectList.append(option)
         projectIndex = projectIndex + 1
 
