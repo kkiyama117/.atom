@@ -30,7 +30,7 @@ class ProjectDialog extends Dialog
         if repo
           option = document.createElement("option")
           option.value = projectIndex
-          option.text = path.basename(path.resolve(repo.repo.workingDirectory))
+          option.text = path.basename(path.resolve(repo.path, '..'))
           projectList.append(option)
         projectIndex = projectIndex + 1
 
@@ -41,7 +41,8 @@ class ProjectDialog extends Dialog
   changeProject: ->
     @deactivate()
     git.setProjectIndex(@projectList.val())
-    repo = git.getRepository().repo
-    @parentView.setWorkspaceTitle(repo.workingDirectory.split('/').reverse()[0])
+    repo = git.getRepository()
+
+    @parentView.setWorkspaceTitle(repo.path.split('/').reverse()[1])
     @parentView.update()
     return
