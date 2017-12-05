@@ -133,8 +133,9 @@ module.exports =
 
   isMerging: ->
     return fs.existsSync(path.join(repo.repo.workingDirectory, 'MERGE_HEAD'))
-  getBranches: getBranches
 
+  getBranches: getBranches
+  
   hasRemotes: ->
     refs = repo.getReferences()
     return refs and refs.remotes and refs.remotes.length
