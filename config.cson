@@ -1,4 +1,9 @@
 "*":
+  Hydrogen:
+    kernelNotifications: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "8aa432fd-0ff9-4c96-8218-50629622d827"
   core:
     closeDeletedFileTabs: true
     disabledPackages: [
@@ -6,6 +11,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "git-control"
+      "Hydrogen"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -34,3 +40,11 @@
     enableVcsColoring: true
   welcome:
     showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    tabType: "soft"
+".editorconfig.source":
+  editor:
+    tabType: "soft"

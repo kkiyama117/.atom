@@ -7,3 +7,4 @@ storage/
 .npm
 packages/*
 !git-control/
+nohup.out
