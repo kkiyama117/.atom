@@ -26,8 +26,8 @@
     projectHome: "/home/mtt/program"
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
+      "atom-material-ui"
+      "atom-material-syntax-dark"
     ]
   editor:
     fontSize: 15
