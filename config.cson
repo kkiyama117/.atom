@@ -3,7 +3,13 @@
     kernelNotifications: true
   "atom-beautify":
     general:
-      _analyticsUserId: "8aa432fd-0ff9-4c96-8218-50629622d827"
+      _analyticsUserId: "ad6c9a1d-361b-4821-abe0-8b464bed64bd"
+    python:
+      beautify_on_save: true
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "enter"
+    enableExtendedUnicodeSupport: true
   core:
     closeDeletedFileTabs: true
     disabledPackages: [
@@ -36,6 +42,7 @@
       signTags: true
   kite:
     showKiteTourOnStartup: false
+  "linter-ui-default": {}
   tabs:
     enableVcsColoring: true
   welcome:
