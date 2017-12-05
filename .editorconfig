@@ -1,6 +1,8 @@
-
+# EditorConfig is awesome: http://EditorConfig.org
+# top-most EditorConfig file
 root = true
 
+# Unix-style newlines with a newline ending every file
 [*]
 end_of_line = lf
 charset = utf-8
@@ -9,6 +11,9 @@ indent_size = 4
 trim_trailing_whitespace = false
 insert_final_newline = false
 
+[*.{md,c,cpp,tex}]
+indent_style = space
+indent_size = 4
 [*.md]
 insert_final_newline = true
 
@@ -16,6 +21,20 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.{md,c,cpp,tex}]
+# Tab indentation (no size specified)
+[*.js]
+indent_style = tab
+# Indentation override for all JS under lib directory
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# 4 space indentation
+[*.py]
 indent_style = space
 indent_size = 4
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2

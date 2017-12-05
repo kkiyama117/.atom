@@ -1,4 +1,6 @@
 "*":
+  Hydrogen:
+    kernelNotifications: true
   "atom-beautify":
     general:
       _analyticsUserId: "ad6c9a1d-361b-4821-abe0-8b464bed64bd"
@@ -15,6 +17,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "git-control"
+      "Hydrogen"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -44,3 +47,11 @@
     enableVcsColoring: true
   welcome:
     showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    tabType: "soft"
+".editorconfig.source":
+  editor:
+    tabType: "soft"
