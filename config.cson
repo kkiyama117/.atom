@@ -30,6 +30,7 @@
       "atom-material-syntax-dark"
     ]
   editor:
+    fontFamily: "Ricty Diminished"
     fontSize: 15
     showIndentGuide: true
     showInvisibles: true
