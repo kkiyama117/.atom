@@ -29,6 +29,7 @@
       "atom-material-ui"
       "atom-material-syntax-dark"
     ]
+    uriHandlerRegistration: "always"
   editor:
     fontFamily: "Ricty Diminished"
     fontSize: 15
