@@ -51,8 +51,17 @@
   kite:
     showKiteTourOnStartup: false
   "linter-ui-default": {}
+  "platformio-ide-terminal":
+    core:
+      shell: "c:\\msys64\\usr\\bin\\winpty.exe"
+      shellArguments: "c:\\msys64\\usr\\bin\\zsh.exe --login -i"
+      shellEnv: "CHERE_INVOKING=1 PATH=%ConEmuDrive%\\msys64\\usr\\bin;%PATH% "
+    toggles:
+      autoClose: true
   tabs:
     enableVcsColoring: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".breakpoints.hydrogen":
